@@ -94,7 +94,7 @@ export const socialMedia = [
     img: "/git.svg",
   },
   {
-    id: 3,
+    id: 2,
     img: "/link.svg",
   },
 ];
