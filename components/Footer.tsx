@@ -12,7 +12,7 @@ const Footer = () => {
           <span className="text-indigo-500">opportunities</span> and{" "}
           <span className="text-indigo-500">collaborations</span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
+        <p className="text-white-200 md:mt-10 md:my-0 my-5 text-center">
           Reach out to me today and let's discuss how I can help you achieve
           your goals.
         </p>
@@ -24,8 +24,8 @@ const Footer = () => {
           />
         </a>
       </div>
-      <div className="flex mt-16 md:flex-row flex-col justify-between items-center">
-        <p className="md:text-base text-sm md:font-normal font-light sd:mb-4">
+      <div className="flex mt-12 md:mt-16 md:flex-row flex-col justify-between items-center">
+        <p className="md:text-base text-sm md:font-normal font-light mb-4 md:mb-0">
           Copyright © 2024 Indigo Moorcroft
         </p>
 

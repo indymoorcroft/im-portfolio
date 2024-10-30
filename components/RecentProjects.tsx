@@ -7,12 +7,12 @@ const RecentProjects = () => {
       <h1 className="heading">
         A selection of <span className="text-indigo-400">recent projects</span>
       </h1>
-      <div className="flex flex-wrap items-center justify-center p-4 gap-x-12 gap-y-8 mt-10">
+      <div className="flex flex-wrap items-center justify-center p-4 gap-x-12 gap-y-8 mt-4">
         {projects.map(
           ({ id, title, des, img, iconLists, gitLink, webLink }) => (
             <div
               key={id}
-              className="h-[28rem] w-[30%] flex flex-col items-start justify-center border border-white/[0.1] rounded-lg"
+              className="h-[22rem] w-[100%] flex flex-col items-start justify-center border border-white/[0.1] rounded-lg md:w-[30%] md:h-[28rem]"
             >
               <div className="w-[90%] mb-5 mt-3 ml-[5%]">
                 <img src={img} alt={title} className="rounded-xl" />
@@ -49,17 +49,19 @@ const RecentProjects = () => {
                     <img src="/git.svg" alt="github logo" />
                   </a>
                 </div>
-                <div>
-                  <a
-                    href={webLink}
-                    className="flex flex-row items-center justify-center"
-                  >
-                    <p className="flex lg:text-xl md:text-xs text-sm text-indigo-400">
-                      Live Site
-                    </p>
-                    <FaLocationArrow className="ms-2" color="#CBACF9" />
-                  </a>
-                </div>
+                {webLink ? (
+                  <div>
+                    <a
+                      href={webLink}
+                      className="flex flex-row items-center justify-center"
+                    >
+                      <p className="flex lg:text-xl md:text-xs text-sm text-indigo-400">
+                        Live Site
+                      </p>
+                      <FaLocationArrow className="ms-2" color="#CBACF9" />
+                    </a>
+                  </div>
+                ) : null}
               </div>
             </div>
           )
