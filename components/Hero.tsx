@@ -5,7 +5,7 @@ import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-10 pt-24">
       <div>
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
@@ -30,8 +30,8 @@ const Hero = () => {
             words="Building Experiences from Front to Back"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi 👋, I'm Indy, a full-stack developer based in London.
+          <p className="text-center md:tracking-wider mb-4 md:my-2 text-sm md:text-lg lg:text-2xl">
+            Hi 👋, I'm Indy, a full-stack developer based in London, UK
           </p>
           <a href="#projects">
             <MagicButton
