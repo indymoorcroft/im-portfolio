@@ -39,7 +39,7 @@ export const TextGenerateEffect = ({
               key={word + idx}
               className={`${
                 idx === 3 || idx === 5
-                  ? "text-indigo-400"
+                  ? "text-indigo-500"
                   : "dark:text-white text-black"
               } opacity-0`}
               style={{
