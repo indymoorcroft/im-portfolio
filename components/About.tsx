@@ -12,19 +12,19 @@ const About = () => {
           Thank you for visiting my portfolio!
         </p>
         <p className="md:text-2xl sm:text-base">
-          Throughout my career, I've been motivated by a genuine desire to make
-          a positive impact on the world.
+          Throughout my career, I&apos;ve been motivated by a genuine desire to
+          make a positive impact on the world.
         </p>
         <p className="md:text-2xl sm:text-base">
           My journey into software development began with a love for
-          problem-solving and a curiosity about how things work. Over time, I’ve
-          developed a solid foundation in various programming languages and
-          frameworks, and I’m always learning more!
+          problem-solving and a curiosity about how things work. Over time,
+          I&apos;ve developed a solid foundation in various programming
+          languages and frameworks, and I&apos;m always learning more!
         </p>
         <p className="md:text-2xl sm:text-base">
-          With experience in both collaborative and independent projects, I’m
-          excited to continue growing as a developer and to contribute to
-          projects that solve meaningful problems.
+          With experience in both collaborative and independent projects,
+          I&apos;m excited to continue growing as a developer and to contribute
+          to projects that solve meaningful problems.
         </p>
       </div>
       <div className="flex flex-col items-start justify-center p-8 gap-x-24 gap-y-8 mt-10 bg-black-100 rounded-lg border border-white/[0.1]">

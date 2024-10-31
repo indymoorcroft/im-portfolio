@@ -31,7 +31,7 @@ const Hero = () => {
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
           <p className="text-center md:tracking-wider mb-4 md:my-2 text-sm md:text-lg lg:text-2xl">
-            Hi 👋, I'm Indy, a full-stack developer based in London, UK
+            Hi 👋, I&apos;m Indy, a full-stack developer based in London, UK
           </p>
           <a href="#projects">
             <MagicButton
