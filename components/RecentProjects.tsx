@@ -41,6 +41,7 @@ const RecentProjects = () => {
                 <div>
                   <a
                     href={gitLink}
+                    target="_blank"
                     className="flex flex-row items-center justify-center"
                   >
                     <p className="flex lg:text-xl md:text-xs text-sm text-indigo-500 mr-1">
@@ -53,6 +54,7 @@ const RecentProjects = () => {
                   <div>
                     <a
                       href={webLink}
+                      target="_blank"
                       className="flex flex-row items-center justify-center"
                     >
                       <p className="flex lg:text-xl md:text-xs text-sm text-indigo-400">

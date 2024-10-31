@@ -85,6 +85,7 @@ export const projects = [
     img: "/games.svg",
     iconLists: ["/stack/javascript.svg", "/stack/html.svg", "/stack/css.svg"],
     gitLink: "https://github.com/indymoorcroft/games",
+    webLink: "https://arcade-games-3087.onrender.com/",
   },
 ];
 
