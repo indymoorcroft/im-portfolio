@@ -35,12 +35,9 @@ const About = () => {
                 {title}
               </p>
             </div>
-            <div
-              className="flex flex-wrap items-center justify-start py-2"
-              key={id}
-            >
+            <div className="flex flex-wrap items-center justify-start py-2">
               {iconLists.map((icon, index) => (
-                <div id={index.toString()}>
+                <div id={`${icon}-${index}`}>
                   <img
                     src={icon}
                     alt={icon}
