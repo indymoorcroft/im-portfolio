@@ -37,7 +37,7 @@ const About = () => {
             </div>
             <div className="flex flex-wrap items-center justify-start py-2">
               {iconLists.map((icon, index) => (
-                <div id={`${icon}-${index}`}>
+                <div key={`${icon}-${index}`}>
                   <img
                     src={icon}
                     alt={icon}
