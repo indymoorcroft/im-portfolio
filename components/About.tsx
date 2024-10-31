@@ -35,7 +35,10 @@ const About = () => {
                 {title}
               </p>
             </div>
-            <div className="flex flex-wrap items-center justify-start py-2">
+            <div
+              className="flex flex-wrap items-center justify-start py-2"
+              key={id}
+            >
               {iconLists.map((icon, index) => (
                 <div id={index.toString()}>
                   <img
