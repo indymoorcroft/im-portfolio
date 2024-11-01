@@ -42,6 +42,7 @@ export const techStack = [
       "/stack/figma.svg",
       "/stack/npm.svg",
       "/stack/vs-code.svg",
+      "/stack/framer-motion.svg",
     ],
   },
 ];
@@ -87,6 +88,14 @@ export const projects = [
     gitLink: "https://github.com/indymoorcroft/games",
     webLink: "https://arcade-games-3087.onrender.com/",
   },
+];
+
+export const portfolioIcons = [
+  "/stack/typescript.svg",
+  "/stack/tailwind.svg",
+  "/stack/react.svg",
+  "/stack/next-js.svg",
+  "/stack/framer-motion.svg",
 ];
 
 export const socialMedia = [
