@@ -19,12 +19,12 @@ const About = () => {
         </p>
         <p className="md:text-2xl sm:text-base">
           Two years ago, my manager gave me the seemingly insignificant task of
-          coding email signatures. It's not dramatic to say that this small task
-          changed the trajectory of my life. From that first day of exploring
-          basic HTML and CSS to now building dynamic full-stack applications, I
-          have discovered a genuine joy for the creativity of building code as
-          well as a deep curiosity and excitement for the constant learning
-          process associated with it.
+          coding email signatures. It&apos;s not dramatic to say that this small
+          task changed the trajectory of my life. From that first day of
+          exploring basic HTML and CSS to now building dynamic full-stack
+          applications, I have discovered a genuine joy for the creativity of
+          building code as well as a deep curiosity and excitement for the
+          constant learning process associated with it.
         </p>
         <p className="md:text-2xl sm:text-base">
           With experience in both collaborative and independent projects,
