@@ -20,6 +20,7 @@ export const techStack = [
     iconLists: [
       "/stack/html.svg",
       "/stack/css.svg",
+      "/stack/scss.svg",
       "/stack/tailwind.svg",
       "/stack/react.svg",
       "/stack/react-native.svg",
@@ -31,13 +32,19 @@ export const techStack = [
   {
     id: 3,
     title: "Back-end",
-    iconLists: ["/stack/psql.svg", "/stack/appwrite.svg"],
+    iconLists: [
+      "/stack/psql.svg",
+      "/stack/appwrite.svg",
+      "/stack/neon.svg",
+      "/stack/drizzle.svg",
+    ],
   },
   {
     id: 4,
     title: "Tools",
     iconLists: [
       "/stack/node.svg",
+      "/stack/git.svg",
       "/stack/jest.svg",
       "/stack/figma.svg",
       "/stack/npm.svg",
@@ -50,6 +57,21 @@ export const techStack = [
 export const projects = [
   {
     id: 1,
+    title: "Fleur - Events Platform",
+    des: "Allows members to view, sign up for, and add events to their calendars. Includes admin portal",
+    img: "/fleur.svg",
+    iconLists: [
+      "/stack/typescript.svg",
+      "/stack/tailwind.svg",
+      "/stack/next-js.svg",
+      "/stack/neon.svg",
+      "/stack/drizzle.svg",
+    ],
+    gitLink: "https://github.com/indymoorcroft/fleur",
+    webLink: "https://fleur-indymoorcrofts-projects.vercel.app/",
+  },
+  {
+    id: 2,
     title: "News & Discussion Website",
     des: "An online social news forum where users can read, comment and vote on content",
     img: "/nc-news.svg",
@@ -66,7 +88,7 @@ export const projects = [
     webLink: "https://nc-news-im.netlify.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "BreathAway - Pranayama App",
     des: "Simplifies breathwork practices by delivering protocols in accessible ways",
     img: "/breathaway.svg",
@@ -80,7 +102,7 @@ export const projects = [
     gitLink: "https://github.com/ilterr/BreathAway",
   },
   {
-    id: 3,
+    id: 4,
     title: "Whack-a-Mole game",
     des: "A classic arcade game to develop concentration and coordination skills",
     img: "/games.svg",
@@ -101,7 +123,7 @@ export const portfolioIcons = [
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "/github.svg",
     link: "https://github.com/indymoorcroft",
   },
   {

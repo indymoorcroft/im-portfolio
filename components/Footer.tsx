@@ -1,4 +1,3 @@
-import React from "react";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa6";
 import { portfolioIcons, socialMedia } from "@/data";
@@ -9,10 +8,15 @@ const Footer = () => {
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
           I’m always open to new{" "}
-          <span className="text-indigo-500">opportunities</span> and{" "}
-          <span className="text-indigo-500">collaborations</span>
+          <span className="dark:text-indigo-500 text-indigo-800">
+            opportunities
+          </span>{" "}
+          and{" "}
+          <span className="dark:text-indigo-500 text-indigo-800">
+            collaborations
+          </span>
         </h1>
-        <p className="text-white-200 md:mt-10 md:my-0 my-5 text-center">
+        <p className="dark:text-blue-100 text-indigo-950 md:mt-10 md:my-0 my-5 text-center">
           Reach out to me today and let&apos;s discuss how I can help you
           achieve your goals.
         </p>
@@ -32,10 +36,10 @@ const Footer = () => {
             target="_blank"
             className="flex flex-row items-center justify-center"
           >
-            <p className="flex md:text-base text-sm md:font-normal font-light text-indigo-500 mr-2">
+            <p className="flex md:text-base text-sm md:font-normal font-light dark:text-indigo-500 text-indigo-800 mr-2">
               Portfolio Repository
             </p>
-            <img src="/git.svg" alt="github logo" />
+            <img src="/github.svg" alt="github logo" />
           </a>
         </div>
 
@@ -57,14 +61,14 @@ const Footer = () => {
 
       <div className="flex md:flex-row flex-col justify-between items-center">
         <p className="md:text-base text-sm md:font-normal font-light mb-4 md:mb-0">
-          Copyright © 2024 Indigo Moorcroft
+          Copyright © 2025 Indigo Moorcroft
         </p>
 
         <div className="flex items-center md:gap-3 gap-6">
           {socialMedia.map(({ id, img, link }) => (
             <div
               key={id}
-              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 bg-black-200 rounded-lg border border-black-300"
+              className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-filter backdrop-blur-lg saturate-180 bg-opacity-75 dark:bg-black-200 bg-black rounded-lg border border-black-300"
             >
               <a href={link} target="_blank">
                 <img src={img} alt={img} width={20} height={20} />
